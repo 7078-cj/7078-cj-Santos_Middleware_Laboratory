@@ -25,6 +25,10 @@ class GlobalMiddleware
             'headers' => $request->headers->all(),
             'body' => $request->all(),
         ]);
+        // this logs every request the use do you can find the logs in  storage/logs/laravel.log
+        //this shows the http request method the user used for example GET,POST
+        // the header shows the additional information coming with the request including the cookies and csrf
+        //in the body it show the data sent if its post request
         
 
         return $next($request);

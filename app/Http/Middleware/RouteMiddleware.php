@@ -27,4 +27,7 @@ class RouteMiddleware
         }
         
     }
+    //whats's this does if it check the users role and it will redirect the user the their pages
+    //if the user's role is admin then the user will go to the Admin Page then if it guest then the user will go to the Guest Page
+    
 }
